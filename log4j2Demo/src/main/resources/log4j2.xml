@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="OFF">
+    <Appenders>
+        <Console name="console" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n" />
+<!--            <HtmlLayout/>-->
+<!--            <JsonLayout/>-->
+        </Console>
+<!--        <File name="MyFile" fileName="logs/app.log">-->
+<!--            <PatternLayout>-->
+<!--                <Pattern>%d %p %c{1.} [%t] %m%n</Pattern>-->
+<!--            </PatternLayout>-->
+<!--        </File>-->
+
+        <RollingFile name="RollingFile" fileName="logs/app2.log"
+                     filePattern="logs/$${date:yyyy-MM}/%d{dd-HH}/%d{mm}/log-%i.log">
+            <PatternLayout>
+                <Pattern>%d{HH:mm} %-5level %logger{36} [%t] %m%n</Pattern>
+            </PatternLayout>
+            <Policies>
+                <TimeBasedTriggeringPolicy interval="1" modulate="true"/>
+                <SizeBasedTriggeringPolicy size="2 KB" />
+            </Policies>
+            <DefaultRolloverStrategy max="20"/>
+        </RollingFile>
+
+        <JDBC name="databaseAppender" tableName="log_table">
+            <ConnectionFactory class="com.trkj.dao.ConnectionFactory" method="getDatabaseConnection"/>
+            <Column name="log_date" isEventTimestamp="true"/>
+            <Column name="log_file" pattern="%file"/>
+            <Column name="log_line" pattern="%line"/>
+            <Column name="log_thread" pattern="%thread"/>
+            <Column name="log_level" pattern="%level"/>
+            <Column name="log_message" pattern="%message"/>
+        </JDBC>
+
+    </Appenders>
+    <Loggers>
+        <logger name="com.trkj" level="debug" additivity="false">
+            <appender-ref ref="console"/>
+<!--            <appender-ref ref="MyFile"/>-->
+            <appender-ref ref="RollingFile"/>
+            <appender-ref ref="databaseAppender"/>
+        </logger>
+        <root level="trace">
+            <appender-ref ref="console" />
+        </root>
+    </Loggers>
+</Configuration>

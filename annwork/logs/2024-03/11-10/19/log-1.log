@@ -1,0 +1,2 @@
+2024-03-11 10:19:37,779 DEBUG c.t.Test1 [main] insert into mep (ename,mgr,sal,
+2024-03-11 10:19:37,790 DEBUG c.t.Test1 [main] insert into mep (ename,mgr,sal) values (?,?,?)

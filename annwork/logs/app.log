@@ -1,0 +1,52 @@
+2024-03-11 08:45:53,117 DEBUG c.t.Test1 [main] com.trkj.entity.Emp
+2024-03-11 08:45:53,120 DEBUG c.t.Test1 [main] Emp
+2024-03-11 08:45:53,122 DEBUG c.t.Test1 [main] null
+2024-03-11 08:49:56,610 DEBUG c.t.Test1 [main] com.trkj.entity.Emp
+2024-03-11 08:49:56,625 DEBUG c.t.Test1 [main] Emp
+2024-03-11 08:49:56,627 DEBUG c.t.Test1 [main] null
+2024-03-11 08:54:28,306 DEBUG c.t.Test1 [main] com.trkj.entity.Emp
+2024-03-11 08:54:28,321 DEBUG c.t.Test1 [main] Emp
+2024-03-11 08:54:28,323 DEBUG c.t.Test1 [main] null
+2024-03-11 08:54:28,323 DEBUG c.t.Test1 [main] false
+2024-03-11 09:12:54,462 DEBUG c.t.Test1 [main] com.trkj.entity.Emp
+2024-03-11 09:12:54,483 DEBUG c.t.Test1 [main] Emp
+2024-03-11 09:12:54,485 DEBUG c.t.Test1 [main] null
+2024-03-11 09:12:54,487 DEBUG c.t.Test1 [main] false
+2024-03-11 09:18:19,374 DEBUG c.t.Test1 [main] com.trkj.entity.Emp
+2024-03-11 09:18:19,389 DEBUG c.t.Test1 [main] Emp
+2024-03-11 09:18:19,391 DEBUG c.t.Test1 [main] null
+2024-03-11 09:18:19,391 DEBUG c.t.Test1 [main] false
+2024-03-11 09:21:51,033 DEBUG c.t.Test1 [main] com.trkj.entity.Emp
+2024-03-11 09:21:51,051 DEBUG c.t.Test1 [main] Emp
+2024-03-11 09:21:51,056 DEBUG c.t.Test1 [main] @com.trkj.ann.Table(dataBasebName=MyTest, tableName=mep)
+2024-03-11 09:21:51,057 DEBUG c.t.Test1 [main] true
+2024-03-11 09:28:09,026 DEBUG c.t.Test1 [main] com.trkj.entity.Emp
+2024-03-11 09:28:09,040 DEBUG c.t.Test1 [main] Emp
+2024-03-11 09:28:09,042 DEBUG c.t.Test1 [main] @com.trkj.ann.Table(dataBasebName=MyTest, tableName=mep)
+2024-03-11 09:28:09,043 DEBUG c.t.Test1 [main] true
+2024-03-11 09:28:09,047 DEBUG c.t.Test1 [main] mep,MyTest
+2024-03-11 10:17:49,814 DEBUG c.t.Test1 [main] insert into mep (ename,mgr,sal,
+2024-03-11 10:19:37,779 DEBUG c.t.Test1 [main] insert into mep (ename,mgr,sal,
+2024-03-11 10:19:37,790 DEBUG c.t.Test1 [main] insert into mep (ename,mgr,sal) values (?,?,?)
+2024-03-11 10:38:56,685 DEBUG c.t.Test1 [main] select empno,ename,mgr,sal) from mep
+2024-03-11 10:39:15,439 DEBUG c.t.Test1 [main] select empno,ename,mgr,sal from mep
+2024-03-11 10:53:55,672 DEBUG c.t.Test1 [main] select empno,ename,mgr,sal from mep
+2024-03-11 10:53:55,686 DEBUG c.t.Test1 [main] insert into mep (ename,mgr,sal) values (?,?,?)
+2024-03-11 10:53:55,686 DEBUG c.t.Test1 [main] delete from mep where empno=?
+2024-03-11 10:53:55,686 DEBUG c.t.Test1 [main] update mep(ename,mgr,sal,) set empno=?
+2024-03-11 10:57:11,039 DEBUG c.t.Test1 [main] select empno,ename,mgr,sal from mep
+2024-03-11 10:57:11,054 DEBUG c.t.Test1 [main] insert into mep (ename,mgr,sal) values (?,?,?)
+2024-03-11 10:57:11,055 DEBUG c.t.Test1 [main] delete from mep where empno=?
+2024-03-11 10:57:11,055 DEBUG c.t.Test1 [main] update mep set ename=?,mgr=?,sal=? where empno=?
+2024-03-11 11:30:47,028 DEBUG c.t.Test1 [main] com.mysql.cj.jdbc.ConnectionImpl@175b9425
+2024-03-11 11:33:07,581 DEBUG c.t.Test1 [main] select empno,ename,mgr,sal from mep where empno=?
+2024-03-11 11:33:07,601 DEBUG c.t.Test1 [main] insert into mep (ename,mgr,sal) values (?,?,?)
+2024-03-11 11:33:07,601 DEBUG c.t.Test1 [main] delete from mep where empno=?
+2024-03-11 11:33:07,601 DEBUG c.t.Test1 [main] update mep set ename=?,mgr=?,sal=? where empno=?
+2024-03-11 11:42:21,348 DEBUG c.t.Test1 [main] com.mysql.cj.jdbc.ConnectionImpl@175b9425
+2024-03-11 11:43:47,287 DEBUG c.t.Test1 [main] com.mysql.cj.jdbc.ConnectionImpl@175b9425
+2024-03-11 14:37:15,503 DEBUG c.t.Test1 [main] com.mysql.cj.jdbc.ConnectionImpl@175b9425
+2024-03-11 14:54:12,472 DEBUG c.t.Test1 [main] select empno,ename,mgr,sal from mep where empno=?
+2024-03-11 14:54:12,487 DEBUG c.t.Test1 [main] insert into mep (ename,mgr,sal) values (?,?,?)
+2024-03-11 14:54:12,487 DEBUG c.t.Test1 [main] delete from mep where empno=?
+2024-03-11 14:54:12,487 DEBUG c.t.Test1 [main] update mep set ename=?,mgr=?,sal=? where empno=?

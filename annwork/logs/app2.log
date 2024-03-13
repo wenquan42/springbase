@@ -1,0 +1,4 @@
+2024-03-11 14:54:12,472 DEBUG c.t.Test1 [main] select empno,ename,mgr,sal from mep where empno=?
+2024-03-11 14:54:12,487 DEBUG c.t.Test1 [main] insert into mep (ename,mgr,sal) values (?,?,?)
+2024-03-11 14:54:12,487 DEBUG c.t.Test1 [main] delete from mep where empno=?
+2024-03-11 14:54:12,487 DEBUG c.t.Test1 [main] update mep set ename=?,mgr=?,sal=? where empno=?

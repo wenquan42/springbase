@@ -1,0 +1,4 @@
+2024-03-11 09:18:19,374 DEBUG c.t.Test1 [main] com.trkj.entity.Emp
+2024-03-11 09:18:19,389 DEBUG c.t.Test1 [main] Emp
+2024-03-11 09:18:19,391 DEBUG c.t.Test1 [main] null
+2024-03-11 09:18:19,391 DEBUG c.t.Test1 [main] false

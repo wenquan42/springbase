@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/annwork/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/annwork/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/beanwork/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/beanwork/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/log4j2Demo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/log4j2Demo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/log4j2work/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/log4j2work/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/refwork/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/refwork/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springwork/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springwork/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

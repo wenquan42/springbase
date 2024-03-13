@@ -1,0 +1,2 @@
+2024-03-11 10:38:56,685 DEBUG c.t.Test1 [main] select empno,ename,mgr,sal) from mep
+2024-03-11 10:39:15,439 DEBUG c.t.Test1 [main] select empno,ename,mgr,sal from mep

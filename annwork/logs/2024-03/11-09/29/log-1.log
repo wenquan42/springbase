@@ -1,0 +1,5 @@
+2024-03-11 09:28:09,026 DEBUG c.t.Test1 [main] com.trkj.entity.Emp
+2024-03-11 09:28:09,040 DEBUG c.t.Test1 [main] Emp
+2024-03-11 09:28:09,042 DEBUG c.t.Test1 [main] @com.trkj.ann.Table(dataBasebName=MyTest, tableName=mep)
+2024-03-11 09:28:09,043 DEBUG c.t.Test1 [main] true
+2024-03-11 09:28:09,047 DEBUG c.t.Test1 [main] mep,MyTest

@@ -1,0 +1,2 @@
+2024-03-11 11:42:21,348 DEBUG c.t.Test1 [main] com.mysql.cj.jdbc.ConnectionImpl@175b9425
+2024-03-11 11:43:47,287 DEBUG c.t.Test1 [main] com.mysql.cj.jdbc.ConnectionImpl@175b9425
