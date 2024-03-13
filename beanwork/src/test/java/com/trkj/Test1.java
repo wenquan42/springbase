@@ -81,4 +81,10 @@ public class Test1 {
         order.processOrder();
         order.delivery();
     }
+
+    @Test
+    public void test8(){
+        log.debug("提交测试");
+    }
+
 }
